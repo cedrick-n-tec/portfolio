@@ -1,0 +1,61 @@
+/* Tablets */
+
+@media (max-width: 992px) {
+    header .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hero {
+        height: auto;
+        padding: 60px 20px;
+    }
+    .hero-content h2 {
+        font-size: 2rem;
+    }
+    section {
+        padding: 40px 5%;
+    }
+}
+
+
+/* Mobile Phones */
+
+@media (max-width: 600px) {
+    .logo {
+        font-size: 20px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 8px 0;
+    }
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+    .hero-content h2 {
+        font-size: 1.7rem;
+    }
+    .hero-content p {
+        font-size: 1rem;
+    }
+    .skills-container,
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+    .btn,
+    .btn-outline {
+        display: inline-block;
+        width: 100%;
+        margin-top: 10px;
+    }
+    section h2 {
+        font-size: 1.4rem;
+    }
+}
